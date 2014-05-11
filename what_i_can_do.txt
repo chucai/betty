@@ -1,3 +1,6 @@
+What
+betty what i can do
+
 Count
 betty how many words are in this directory
 betty how many characters are in myfile.py
