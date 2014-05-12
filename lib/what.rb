@@ -1,8 +1,8 @@
 module What
   def self.interpret(command)
     responses = []
-
-    match = command == "what you can do"
+    regular = /(^what\s+(you\s+)?(can\s+)?do|(give\s+)?(me\s+)?(a\s+)?help)/i
+    match = command.match(regular)
 
     if match
       responses << {
